@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    background-color: #2455f4;;
+    
+    
+}
+nav{
+    display: flex;
+
+    
+
+}
+.logo{
+    display: flex;
+    align-items: center;
+
+}
+.logo img{
+    width: 88px;
+    padding: 0 25px;
+}
+
+nav ul{
+    height: 58px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    
+}
+nav ul li{
+    list-style-type: none;
+    padding: 0 23px;
+}
+nav ul li a{
+    color:white;
+    text-decoration: none;
+
+}
+nav ul li a:hover{
+    color: rgb(204, 208, 223);
+    font-weight: bold;
+}
+.searchbar{
+    display: flex;
+    align-items: center;
+    
+}
+input{
+    width: 500px;
+    border-radius: 2px;
+    
+}
+.btn{
+    padding: 20px;
+    
+}
+button{
+    cursor: pointer;
+}
+.login{
+    padding: 20px;
+}
+.more{
+    padding: 20px;
+    
+}
+.cartlogo img{
+    width: 15px;
+    /* padding: 20px; */
+}
+.cartlogo{
+    display: flex;
+    justify-content: center;
+    width: 80px;
+    padding: 14px 0px 18px 0px;
+
+}
+.wishlistlogo img{
+    width: 15px;
+    /* padding: 20px; */
+}
+.wishlistlogo{
+    display: flex;
+    justify-content: center;
+    width: 80px;
+    padding: 14px 0px 18px 0px;
+
+}
+.container{
+    min-height: 75vh
+}
+.img {
+    padding: 2px 0;
+}
+.heading{
+    font-size: x-large;
+    display: flex;
+    padding: 23px;
+    cursor: pointer;
+}
+.items{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0px;
+}
+p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+p:hover{
+    color: gray;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+.item1{
+    padding: 0px 50px;
+    cursor: zoom-in;
+}
+.item2{
+    padding: 0px 50px;
+    cursor: zoom-in;
+}
+.item3{
+    padding: 0px 50px;
+    cursor: zoom-in;
+}
+.item4{
+    padding: 0px 50px;
+    cursor:zoom-in;
+}
+.item5{
+    padding: 0px 50px;
+    cursor: zoom-in;
+}
+.itm{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0px;
+}
+p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+p:hover{
+    color: gray;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+.item6{
+    padding: 15px 50px;
+    cursor:zoom-in;
+}
+.item7{
+    padding: 15px 50px;
+    cursor: zoom-in;
+}
+.item8{
+    padding: 15px 50px;
+    cursor: zoom-in;
+}
+.item9{
+    padding: 15px 50px;
+    cursor:zoom-in;
+}
+.item10{
+    padding: 15px 50px;
+    cursor: zoom-in;
+}
+
+footer{
+    height: 12vh;
+    background-color:  #2455f4;
+    color: white;
+    font-family: 'Baloo Bhaijaan 2', cursive;
+}
